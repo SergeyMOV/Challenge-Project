@@ -150,6 +150,7 @@ border-top:1px solid #c5b4b4;
     color:#67eb87;
     font-size:3vw;
     padding:0;
+    width: 80vw;
     }
     .Welcome-title{
     font-size:4vw;
@@ -214,10 +215,10 @@ border-top:1px solid #c5b4b4;
   @media (orientation:landscape) and (min-width: 500px){
    .Welcome-text{
    padding:0;
-   width:21em;
+   width:20.6em;
    }
    .Welcome-title{
-    width: 12em;
+    width: 11.6em;
     padding-right: 2.2em;
    }
    .login-button{
@@ -237,6 +238,9 @@ border-top:1px solid #c5b4b4;
    }
    .socialmedia-buttons{
    width:20rem;
+   }
+   .chameleon-on-branch-image img{
+   width:26em;
    }
   }
   @media (orientation:landscape) and (min-width: 1100px){
