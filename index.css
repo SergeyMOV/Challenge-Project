@@ -241,7 +241,7 @@ border-top:1px solid #c5b4b4;
    }
    .chameleon-on-branch-image img{
     width: 39vw;
-    right: 3.5vw;
+    right: 2.9vw;
    }
   }
   @media (orientation:landscape) and (min-width: 1100px){
@@ -253,7 +253,8 @@ border-top:1px solid #c5b4b4;
         justify-content: flex-end;
        }
        .chameleon-on-branch-image img{
-        width:21em;
+        width:38vw;
+        right:2.7vw;
         }
 
   }
