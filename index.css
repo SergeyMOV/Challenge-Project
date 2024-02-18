@@ -122,6 +122,9 @@ border-top:1px solid #c5b4b4;
    padding-top:0.2em;
    width:1.1rem;
   }
+  #fa-eye{
+    font-size: 1.2em;
+  }
 
   @media (orientation:portrait) and (min-width: 200px){
   .main{
