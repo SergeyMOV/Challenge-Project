@@ -262,5 +262,8 @@ border-top:1px solid #c5b4b4;
         width:38vw;
         right:2.7vw;
         }
+        .login-page{
+        justify-content:flex-end;
+        }
 
   }
