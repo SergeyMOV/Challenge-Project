@@ -38,10 +38,6 @@ border-radius:5px;
 transition:1s;
 border:none;
 }
-.login-button:hover{
-    box-shadow:1px 1px 10px 6px #78cb9d;
-    border-radius:15px;
-}
 .background-page{
 background-image: url('split-layout_background.jpg');
 width: 60%;
@@ -139,8 +135,9 @@ border-top:1px solid #c5b4b4;
   .login-page{
     background-image: url('split-layout_background.jpg');
     width:auto;
-    background-repeat: round;
-    height: 100em;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
   }
   .background-page{
     background-image:none;
@@ -162,14 +159,11 @@ border-top:1px solid #c5b4b4;
     .socialmedia-buttons{
     width:74.6vw;
     }
-    .login-button{
-    background-color: #51c785;
-    }
     form p a{
     color:#18d4a7;
     }
     legend{
-    font-size: 3vw;
+    font-size: 3.5vw;
     }
     form{
     max-width:82w;
@@ -178,19 +172,20 @@ border-top:1px solid #c5b4b4;
         width: 74vw;
         height: 7vw;
         max-width:81vw;
-        font-size: 2.6vw;
+        font-size: 2.9vw;
     }
     .eye-button{
     font-size:3vw;
     margin-top:0;
     }
     .forgot-password-link{
-    font-size:3vw;
+    font-size:3.3vw;
+    padding-right:2rem !important;
     }
     .login-button{
     width:75vw;
     height:8vw;
-    font-size:2.7vw;
+    font-size: 3.2vw;
     max-width:81vw;
     transition:none;
     }
@@ -232,6 +227,10 @@ border-top:1px solid #c5b4b4;
    height:45em;
    padding-right:2em;
    }
+   .login-button:hover{
+    box-shadow:1px 1px 10px 6px #78cb9d;
+    border-radius:15px;
+}
    #fa-eye{
     width:0.5em;
     
