@@ -2,6 +2,7 @@ body{
 margin:0;
 padding:0;
 }
+
 .main{
 display: flex;
 flex-direction:row;
@@ -257,10 +258,6 @@ border-top:1px solid #c5b4b4;
    }
   }
   @media (orientation:landscape) and (min-width: 1100px){
-       .login-page{
-        height:43em;
-        justify-content: flex-end;
-       }
        .chameleon-on-branch-image img{
         width:38vw;
         right:2.7vw;
